@@ -1,6 +1,6 @@
 ####################################################################
 #                                                                  #
-#    Credit: therealOri  |  https://github.com/therealOri          #
+#    Template Credit: therealOri  |  https://github.com/therealOri          #
 #                                                                  #
 ####################################################################
 
@@ -27,7 +27,7 @@ with open('config.toml', 'rb') as fileObj:
 
 
 
-__authors__ = '@therealOri'
+__authors__ = 'Template: @therealOri Content: @IHOPstack'
 token = config["TOKEN"]
 guild_id = config["guild_id"]
 MY_GUILD = discord.Object(id=guild_id)
